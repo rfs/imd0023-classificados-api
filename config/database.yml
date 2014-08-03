@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  host: localhost
+  database: pheromone_development
+  username: postgres
+  password: root
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  host: localhost
+  database: pheromone_test
+  username: postgres
+  password: root
